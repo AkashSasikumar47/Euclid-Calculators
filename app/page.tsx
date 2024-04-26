@@ -3,6 +3,11 @@
 import React from 'react';
 import Head from 'next/head';
 
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Calculators from './components/Calculators/Calculators';
+import Footer from './components/Footer/Footer';
+
 import '../app/globals.css';
 
 const HomePage: React.FC = () => {
@@ -15,9 +20,10 @@ const HomePage: React.FC = () => {
         <link rel="icon" href="/favicon.ico?v=2" />
       </Head>
 
-      <h1 className="text-2xl font-bold text-blue-800 underline">
-        Hello world!
-      </h1>
+      <Navbar />
+      <Hero />
+      <Calculators />
+      <Footer />
 
     </div>
   );
