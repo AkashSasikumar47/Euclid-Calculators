@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+        <div className="bg-blue-100 pb-6 sm:pb-8 lg:pb-12">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
                     {/* content - start */}
