@@ -1,26 +1,21 @@
 import React from 'react';
 
-const About: React.FC = () => {
+const AboutUs: React.FC = () => {
     return (
-        <div className="bg-gray-200 py-20 px-4">
+        <div className="bg-slate-200 py-20 px-4">
             <div className="container mx-auto">
-                <div className="md:flex md:items-center md:justify-center">
-                    <div className="md:col-8 md:pr-12">
-                        <h2 className="text-3xl font-bold mb-4">ABOUT ME</h2>
-                        <p className="text-lg mb-6">Designer focused on visual development.</p>
-                        <p className="text-gray-700">
-                            Matt is an award-winning web designer specializing in no-code solutions. With over 8 years of professional experience, he has helped countless startups launch & grow their business.
-                        </p>
-                    </div>
-                    <div className="md:col-3 mt-6 md:mt-0 grid grid-cols-3 gap-4">
-                        <img src="/image1.jpg" alt="Image 1" className="w-full h-auto rounded-md" />
-                        <img src="/image2.jpg" alt="Image 2" className="w-full h-auto rounded-md" />
-                        <img src="/image3.jpg" alt="Image 3" className="w-full h-auto rounded-md" />
-                    </div>
+                <h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
+                <div className="max-w-3xl mx-auto text-lg text-gray-700">
+                    <p className="mb-8">
+                        <span className="font-bold">Overview of Mission and Vision:</span> At GAINZ, our mission is simple: to democratize finance by providing beginner traders with indispensable tools that enhance financial planning and analysis. We believe that everyone deserves access to the resources needed to navigate the complexities of the stock market with confidence and clarity.
+                    </p>
+                    <p className="mb-8">
+                        Through our user-friendly calculators, we aim to empower individuals with the knowledge and insights necessary to build robust trading strategies, manage risk effectively, and ultimately achieve their financial goals. Whether you're looking to optimize your intraday positions, plan your SIP investments, or calculate the returns on your fixed deposits, GAINZ is here to guide you every step of the way.
+                    </p>
                 </div>
             </div>
         </div>
     );
 };
 
-export default About;
+export default AboutUs;

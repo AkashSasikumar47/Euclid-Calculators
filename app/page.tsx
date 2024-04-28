@@ -5,8 +5,8 @@ import Head from 'next/head';
 
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import Calculators from './components/Calculators/Calculators';
 import About from './components/About/About';
+import Calculators from './components/Calculators/Calculators';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -24,8 +24,8 @@ const HomePage: React.FC = () => {
 
       <Navbar />
       <Hero />
-      <Calculators />
       <About />
+      <Calculators />
       <Contact />
       <Footer />
 
