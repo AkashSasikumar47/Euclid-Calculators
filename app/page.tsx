@@ -17,8 +17,8 @@ const HomePage: React.FC = () => {
     <div>
       <Head>
         <title>Calculators | Euclid Resolutions</title>
-        <meta name="description" content="Discover the future of technology with IEEE SRM Student Branch. Stay tuned for our exciting new website, packed with resources, events, and opportunities for students passionate about innovation and excellence." />
-        <meta name="keywords" content="IEEE SRMIST, computer science, engineering, innovation, technology" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
         <link rel="icon" href="/favicon.ico?v=2" />
       </Head>
 
