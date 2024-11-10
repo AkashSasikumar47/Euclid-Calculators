@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
     return (
-        <div className="bg-blue-900 text-white py-20 px-4">
+        <div className="bg-orange-900 text-white py-20 px-4">
             <div className="container mx-auto text-center">
                 <h1 className="text-4xl md:text-6xl font-bold">Welcome to GAINZ - Your Gateway to Simplified Trading Calculations</h1>
                 <p className="text-lg md:text-xl mt-4">
